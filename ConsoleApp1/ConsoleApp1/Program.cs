@@ -23,7 +23,8 @@ namespace ConsoleApp1
             IEnumerable<long> list;
             try
             {
-                list = Calc(m);
+                //list = Calc(m);
+                list = new Calculation(m);
                 foreach (var z in list)
                 {
                     Console.WriteLine(z);
